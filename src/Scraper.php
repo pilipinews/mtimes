@@ -17,7 +17,7 @@ class Scraper extends AbstractScraper implements ScraperInterface
     /**
      * @var string[]
      */
-    protected $removables = array('.tdb-sub-title', '.tdb-flex-min', '.breadcrumb', '.tdb-social-share', '.wp-caption', '.td-a-ad');
+    protected $removables = array('.tdb-sub-title', '.tdb-flex-min', '.breadcrumb', '.tdb-social-share', '.wp-caption', '.td-a-ad', 'style', 'script');
 
     /**
      * Returns the contents of an article.
